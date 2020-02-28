@@ -1,4 +1,4 @@
-# nameOverride: 
+# nameOverride:
 # fullNameOverride:
 
 config:
@@ -9,15 +9,16 @@ config:
       clientId:
       clientSecret:
       domain:
-  encryptionKey: 
-  jwtSecret: 
-  
+  encryptionKey:
+  jwtSecret:
+
   postgresql: {}
     # Specify if postgresql subchart is disabled
     # host:
     # port:
     # db:
     # user:
+    # ssl_enabled:
     # password:
 
 image:
